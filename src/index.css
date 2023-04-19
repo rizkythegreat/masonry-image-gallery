@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&family=Roboto:wght@500&display=swap');
+
+:root {
+  --neutral-one: #f8fafc;
+  --neutral-two: #f1f5f9;
+  --neutral-three: #e2e8f0;
+  --neutral-four: #cbd5e1;
+  --neutral-five: #94a3b8;
+  --neutral-six: #64748b;
+  --neutral-seven: #475569;
+  --neutral-eight: #334155;
+  --neutral-nine: #1e293b;
+  --neutral-ten: #0f172a;
+  --rose-one: #fff1f2;
+  --rose-two: #ffe4e6;
+  --rose-three: #fecdd3;
+  --rose-four: #fda4af;
+  --rose-five: #fb7185;
+  --rose-six: #f43f5e;
+  --rose-seven: #e11d48;
+  --rose-eight: #be123c;
+  --rose-nine: #9f1239;
+  --rose-ten: #881337;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--neutral-one);
+}
