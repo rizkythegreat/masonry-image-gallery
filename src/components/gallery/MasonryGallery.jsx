@@ -92,8 +92,7 @@ const MasonryGallery = () => {
         <div className="masonry-info">
           <h2 className="masonry-title">Latest works</h2>
           <p className="masonry-subtitle">
-            Sed nec sit malesuada cursus dolor accumsan massa semper enim.
-            Egestas vel ac consectetur enim.
+            The masonry gallery image, for your masonry heart.
           </p>
         </div>
         <nav className="masonry-filter">
