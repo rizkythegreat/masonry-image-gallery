@@ -84,9 +84,8 @@ const images = [
   },
 ];
 
-export const MasonryGallery = () => {
+const MasonryGallery = () => {
   const [activeId, setActiveId] = useState(0);
-
   return (
     <section className="masonry-container">
       <header className="masonry-header">
@@ -161,3 +160,4 @@ export const MasonryGallery = () => {
     </section>
   );
 };
+export default MasonryGallery;
